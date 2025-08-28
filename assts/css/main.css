@@ -1,0 +1,66 @@
+.productes{
+    padding: 20px;
+}
+.producte{
+    box-shadow: 2px  2px 8px rgb(133, 129, 129);
+    padding: 20px;
+
+
+}
+
+.producte img{
+    width: 50%;
+    filter: drop-shadow(2px  2px 8px rgb(133, 129, 129));
+
+}
+
+.modal-section{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.modal-content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px  2px 8px rgb(133, 129, 129);
+    
+}
+
+
+.left-arrow,.right-arrow ,.close-arrow{
+    position: absolute;
+    background-color: rgb(8, 8, 12);
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.left-arrow{
+    top:50%;
+    left: 10px;
+
+}
+
+.right-arrow{
+      top:50%;
+     right: 10px;
+
+}
+
+.close-arrow{
+    top: 10px;
+    right: 10px;
+}
+
