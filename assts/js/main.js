@@ -15,7 +15,7 @@ function customModal(){
 
 
      function modalHidd(){
-       myModal.classList.remove('d-none');
+       myModal.classList.add('d-none');
    }
 
     for( var i=0; i<images.length ; i++)
