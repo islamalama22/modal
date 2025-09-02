@@ -11,6 +11,8 @@
 .producte img{
     width: 50%;
     filter: drop-shadow(2px  2px 8px rgb(133, 129, 129));
+    user-select: none;
+    
 
 }
 
@@ -23,7 +25,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s;
+    backdrop-filter: blur(8px);
   
+}
+
+.show{
+    opacity: 1;
+    visibility: visible;
 }
 
 .modal-content{
